@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="UTF-8"> <!--UTF-8 is human readable standard-->
+        <meta namr="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Webpage</title>
+    </head>
+    <body>
+        <h1>Please fill details in this form to create an account.</h1>
+
+
+        <!-- Form attribute - method and action -->
+        <form action="./index.html">
+
+            <label for="username"><b>Enter your name:</b></label>
+            <input type="text" id="username" placeholder="Enter name" required><br/><br/>
+
+            <label {text-align: center;} for="birthday"><b>Enter your date of birth</b></label>
+            <input type="date" id="birthday" name="birthday" required><br/><br/>
+            
+            <label for="email"><b>Enter email:</b></label>
+            <input type="email" id="email" placeholder="Enter email" required><br/><br/>
+            
+            <label for="password"><b>Enter Password:</b></label>
+            <input type="password" id="password" placeholder="Enter Password" required><br/><br/>
+
+            <label for="password-repeat"><b>Repeat Password</b></label>
+            <input type="password" id="password-repeat" placeholder="Repeat Password" required><br/><br/>
+
+
+            <p><b>Select your age group</b></p>
+            <input type="radio" id="age" name="age" value="0-18">
+            <label for="age">0-18 yrs</label><br/><br/>
+            <input type="radio" id="age" name="age" value="19-30">
+            <label for="age">19-30 yrs</label><br/><br/>
+            <input type="radio" id="age" name="age" value="31+">
+            <label for="age">31+ yrs</label><br/><br/>
+
+            <p><b>Select your Gender</b></p>
+            <input type="radio" id="Gender" name="Gender" value="Male">
+            <label for="Gender">Male</label><br/><br/>
+            <input type="radio" id="Gender" name="Gender" value="Female">
+            <label for="Gender">Female</label><br/><br/>
+            <input type="radio" id="Gender" name="Gender" value="Other">
+            <label for="Gender">Other</label><br/><br/>
+            
+            
+            <label for="age"><b>Security Question</b></label>
+            <select id="security" required>
+                <option value="answer1">What is your first school name?</option>
+                <option value="answer2">If you were a plant, what would you be?</option>
+                <option value="answer3">Are you right handed?</option>
+            </select>
+            <br/><br/>
+
+            <label for="comment"><b>Comment</b></label> <br/><br/>
+            <textarea id="comment" rows="5" cols="30" placeholder="Add a comment..."></textarea> <br/><br/>
+
+            
+            <label><input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me</label> <br/><br/>
+
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a></p>
+
+            <input type="reset" value="Reset">
+            <a href="./index.html"><input type="submit" value="Submit"></a><br/><br/>
+
+        </form>
+
+
+    </body>
+
+</html>    
