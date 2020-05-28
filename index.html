@@ -4,34 +4,32 @@
         <meta charset="UTF-8"> <!--UTF-8 is human readable standard-->
         <meta namr="viewport" content="width=device-width, intial-scale=1.0">
         <title>Webpage</title>
-        <style>
-            section{
-                border: 1px dotted black;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="./CSS/style.css">
     </head>
     <body>
         <!-- An inline tag can have only data or another inline tag inside it -->
         <!-- IDs and classes -->
 
-        <header>
+        <header id="header">
             <h1 style="color: rgb(12, 97, 196);">Sports Paradise</h1>
-            <section id="banner" style="color: rgb(224, 57, 202);">
-                <h2>Welcome to our website</h2>
-                <p>This is the best <span>website for sports blog!!!</span></p>
-                <a href="form.html"><h3>Click here to Sign-Up</h3></a>
-                <a href="./subscribe/subscribe.html" target="blank"><h3>Click here to Subscribe</h3></a> <br/>
-                <marquee direction="up">You will find the best articles on Website!</marquee> 
-                <img src="./img/5a44ac7314c4d_thumb900.jpg" alt="This is the banner" width="100%"> 
-            </section>  
         </header>
-
-        <nav>
-           <ul>
-               <li><a href="./contact.html" target="blank">Contact US</a></li>
-               <li><a href="https://www.google.com" target="blank">Click to know more!!!</a></li>
-           </ul>
-        </nav>
+            <section id="banner" style="color: rgb(224, 57, 202);">
+                <img src="./img/5a44ac7314c4d_thumb900.jpg" alt="This is the banner" width="100%">
+                <div class="welcome">
+                    <h2>Welcome to our website</h2>
+                    <p>This is the best <span>website for sports blog!!!</span></p>
+                    <marquee direction="up">You will find the best articles on Website!</marquee> 
+                </div> 
+            </section>  
+       
+        <nav id="navigation">
+            <ul>
+                <li><a href="./contact.html" target="blank"><h3>Contact US</h3></a></li>
+                <li><a href="form.html"><h3>Click here to Sign-Up</h3></a></li>
+                <li><a href="./subscribe/subscribe.html" target="blank"><h3>Click here to Subscribe</h3></a></li>
+                <li><a href="https://www.google.com" target="blank"><h3>Know more!!!</h3></a></li>
+            </ul>
+        </nav>    
         
         <hr />
 
@@ -39,7 +37,7 @@
         <!-- The <summary> tag defines a visible heading for the <details> element. The heading can be clicked to view/hide the details-->
 
         <main>
-            <section id="blog-list">
+            <div id="blog-list">
                 <h2 style="color:rgb(0, 0, 255);">Here are some of our best blogs</h2>
                 <ol>
                     <li class="football-blogs">
@@ -77,8 +75,8 @@
                         Click here for more <a href="./pages/athleteblogs.html">Athlete Blog Websites</a>
                     </li>
                 </ol>
-            </section>
-            <section id="Currenr-News">
+            </div>
+            <section id="Current-News">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur in dolorem molestiae amet ullam doloribus obcaecati nobis eveniet ex, architecto asperiores. Numquam aspernatur aliquam tempore quaerat? Commodi voluptas officiis sint.</p>
             </section>
         </main>
@@ -88,27 +86,28 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, rem nihil animi minus nulla beatae, ipsa sunt id velit non odit, deserunt deleniti? Laborum fugit, totam autem dolore reiciendis temporibus!</p>
         </section>
 
-        <footer>
+        <footer id="contact-details">
             <div id="contact-section">
-                <h2 style="color: rgb(41, 14, 199);">Contact Us</h2>
-    
+                <h2>Contact Us</h2>
                 <div class="contact-method">
-                    <h3 style="color: rgb(0, 125, 129);">Phone Number</h3>
+                    <h3>Phone Number</h3>
                     <p>96xxxxxx98</p>
-    
-                    <h3 style="color: rgb(0, 125, 129);">Email Us at</h3>
+                </div>        
+                <div class="contact-method">
+                    <h3>Email</h3>
                     <p>kumawatramgopal98@gmail.com</p>
-    
-                    <h3 style="color: rgb(0, 125, 129);">Social Media</h3>
+                </div>
+                <div class="contact-method">
+                    <h3>Social Media</h3>
                     <p><a href="https://www.instagram.com">Instagram</a></p>
-                </div>  
-            </div>
+                </div>
+            </div>            
         </footer>
         
         
         <!-- Block Tags and Inline Tags -->
 
-        <a href="#">Go back to the top!</a> <br/><br/>
+        <a href="#"><h3>Go back to the top!</h3></a> <br/><br/>
         <!-- Code injected by live-server -->
 
     </body>

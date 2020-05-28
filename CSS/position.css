@@ -1,0 +1,85 @@
+/* Position:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+*/
+
+#header{
+    position: fixed;
+    text-align: center;
+    z-index: 1; 
+    margin: 0 auto;
+    display: block;
+}
+#header h1{
+    background: lawngreen;   
+}
+
+#banner{
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    height: 20%;
+}
+#banner .welcome{
+    position: absolute;
+    margin: 10px 10px;
+    top: 25%;
+    left: 0px;
+    padding: 10px;
+    color: navy;
+    background-color:lightpink;
+    /* font-size: 75px; */
+}
+#banner h2{
+    font-size: 50px;
+}
+#banner p{
+    font-size: 1.5em;
+}
+
+nav{
+    max-width: 100%;
+    background: #ccc;
+    margin: 0px auto;
+    padding: 15px;
+    position: sticky;
+    top: 66px;
+}
+
+nav ul{
+    white-space: nowrap;
+}
+
+nav li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    max-width: 100%;
+    background: #ccc;
+    margin: 10px auto;
+    padding: 25px;
+    position: sticky;
+    top: 76px;
+}
+
+footer #contact-session{
+    white-space: nowrap;
+    
+}
+
+footer .contact-method{
+    display: inline-block;
+    width: 33%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
