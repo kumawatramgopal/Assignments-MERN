@@ -1,8 +1,8 @@
 
-#banner,#navigation,#blog-list,.blog-list,#Current-News,#about-section ,#contact-details,#About{
+#banner,#navigation,#blog-list,.football-blogs,.Cricket-Blogs,.athlete-blogs,#Current-News,#about-section ,#contact-details,#About{
     width: 90%;
-    border: 15px solid green;
-    padding: 25px;
+    border: 10px solid green;
+    padding: 15px;
     margin: 20px;
   }
 
@@ -28,7 +28,7 @@ a:hover{
  }
 
  p:hover{
-     color: palevioletred;
+     color: rgb(201, 75, 117);
      font-size: 15px;
  }
 
@@ -125,7 +125,7 @@ footer .contact-method{
 
 section.blog-list{
     background: url(../img/5a44ac7314c4d_thumb900.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: scroll;
     color:black;
@@ -134,7 +134,39 @@ section.blog-list{
 
 div#blog-list{
     background: url(../img/rivals-wallpaper-1366x768.jpg);
+    background-size: 100% 100%;
     color:rgb(224, 57, 202);;
 }
 
+.football-blog,.Cricket-Blog,.athlete-blog{
+    width: 90%;
+    border: 5px dashed seagreen;
+    padding: 25px;
+    margin: 20px;
+}
 
+body{
+    background: url(../img/5a44ac7314c4d_thumb900.jpg);
+}
+
+.Cricket-Blogs{
+    background: url(../img/310605.jpg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+.football-blogs{
+    background: url(../img/leo_messi_4-wallpaper-1366x768.jpg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.athlete-blogs{
+    background: url(../img/cycle.jpeg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
