@@ -47,16 +47,38 @@ a:hover{
     fixed
     sticky
 */
-#header{
+
+/*#header{
     position: fixed;
     text-align: center;
     z-index: 1; 
     margin: 0 auto;
     display: block;
+}*/
+#header{
+    position: fixed;
+    text-align: center;
+    z-index: 1; 
+    /*margin: 0 auto;
+    display: block;*/
+    padding: 20px;
+    background: lightseagreen;
+    width: 100%;
+    top: 0px;
+    left: 0px;
 }
 #header h1{
     font-size: 50px;
-    background: lightpink;   
+    background: lightskyblue;
+}
+
+#header h1{
+    color: white;
+    border: 6px solid white;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 30px;
+    /*background: lawngreen;*/   
 }
  nav{
     max-width: 100%;
@@ -132,17 +154,17 @@ section.blog-list{
     font: x-small;
 }
 
-div#blog-list{
-    background: url(../img/rivals-wallpaper-1366x768.jpg);
-    background-size: 100% 100%;
-    color:rgb(224, 57, 202);;
-}
-
 .football-blog,.Cricket-Blog,.athlete-blog{
     width: 90%;
     border: 5px dashed seagreen;
     padding: 25px;
     margin: 20px;
+}
+
+div#blog-list{
+    background: url(../img/rivals-wallpaper-1366x768.jpg);
+    background-size: 100% 100%;
+    color:rgb(224, 57, 202);;
 }
 
 body{
