@@ -16,7 +16,6 @@ function spe_Reverse(sent,letter){
 console.log(spe_Reverse('word searches are super fun', 's'));
 console.log(spe_Reverse('first man to walk on the moon', 'm'));
 console.log(spe_Reverse('peter piper picked pickled peppers', 'p'));
-console.log(spe_Reverse('It is weird madam', 'm'));
 
 console.log('\nQ2 - Hitting the Jackpot\n\n');
 
