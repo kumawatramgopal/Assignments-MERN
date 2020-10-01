@@ -1,5 +1,5 @@
 console.log('\nEASY');
-console.log('\nQ1 - Count Instances of a Character in a String\n\n');
+console.log('\nQ1 - Count instances of a Character in a String\n\n');
 
 /* Create a function that takes two strings as arguments and returns the number of times the first string
 (the single character) is found in the second string. */
@@ -31,7 +31,7 @@ you passed to the function. For example, if the input is 4 then your function sh
 function addUp(num){
     var sum = 0;
     for(var i = 1; i <= num; i++){
-      sum += i;
+      sum =sum+i;
     }
     return sum;
   } 
@@ -39,7 +39,7 @@ console.log(addUp(8));
 console.log(addUp(14));  
 console.log(addUp(135));
 
-console.log('\nQ3 - Replace Vowel with Another Character\n\n');
+console.log('\nQ3 - Replace Vowels  with  an Another Character\n\n');
 
 /* Create a function that takes a string and replaces the vowels with another character.
 a = 1, e = 2, i = 3, o = 4, u = 5 */
@@ -52,11 +52,11 @@ let replaceVowel = function(name){
     let u = o.replace(/u/gi, '5');
     return u;
 }
-result = replaceVowel('karachi');
+result = replaceVowel('Karachi');
 console.log(result);
 
-result = replaceVowel('chembur');
+result = replaceVowel('Chembur');
 console.log(result);
 
-result = replaceVowel('khandbari');
+result = replaceVowel('Khandbari');
 console.log(result);
