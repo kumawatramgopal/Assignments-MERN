@@ -1,5 +1,5 @@
 console.log('\nEASY');
-console.log('\nQ1 - Count Instances of a Character in a String\n\n');
+console.log('\nQ1 - Count instances of a Character in a String\n\n');
 
 /* Create a function that takes two strings as arguments and returns the number of times the first string
 (the single character) is found in the second string. */
@@ -31,7 +31,7 @@ you passed to the function. For example, if the input is 4 then your function sh
 function addUp(num){
     var sum = 0;
     for(var i = 1; i <= num; i++){
-      sum += i;
+      sum =sum+i;
     }
     return sum;
   } 
